@@ -1,7 +1,9 @@
-```markdown
+
 # FFmpeg Web GUI in Docker
 
-A containerized web application that serves as a full-featured web GUI for FFmpeg. This tool provides an intuitive interface for uploading media files, configuring advanced encoding/transcoding settings, and managing processing jobs. It also integrates VMAF (Video Multi-Method Assessment Fusion) scoring to evaluate the quality of each transcoded file.
+A containerized web application that serves as a full-featured web GUI for FFmpeg.
+This tool provides an intuitive interface for uploading media files, configuring advanced encoding/transcoding settings, and managing processing jobs.
+It also integrates VMAF (Video Multi-Method Assessment Fusion) scoring to evaluate the quality of each transcoded file.
 
 ---
 
@@ -28,7 +30,9 @@ A containerized web application that serves as a full-featured web GUI for FFmpe
 
 ## Overview
 
-This project provides a web-based interface for FFmpeg, enabling users to perform advanced encoding and transcoding tasks with ease. The application runs inside a Docker container, ensuring a consistent environment and simplified deployment. Users can monitor job status, view detailed logs, and even assess quality with integrated VMAF scoring.
+This project provides a web-based interface for FFmpeg, enabling users to perform advanced encoding and transcoding tasks with ease.
+The application runs inside a Docker container, ensuring a consistent environment and simplified deployment.
+Users can monitor job status, view detailed logs, and even assess quality with integrated VMAF scoring.
 
 ---
 
@@ -179,4 +183,3 @@ Parse the resulting JSON output to display quality metrics in the job report.
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-```
