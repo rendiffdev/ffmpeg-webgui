@@ -95,7 +95,7 @@ The application is built with a modern web stack:
 - **Containerization:** The entire application runs inside a Docker container, ensuring consistent deployment and operation.
 
 **System Diagram:**
-
+```
 
 +------------------+      HTTP/HTTPS       +--------------------+
 |    Web Browser   | <-------------------> |  Web Server (API)  |
@@ -114,7 +114,7 @@ The application is built with a modern web stack:
                                                |   Storage    |
                                                | (Docker Vol.)|
                                                +--------------+
-
+```
 
 ---
 
